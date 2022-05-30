@@ -1,18 +1,18 @@
 /* reset styles */
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, 
 h3 {
-  list-style:none;
+  list-style: none;
 }
 
 input,
 button{
-  outline:none;
+  outline: none;
 }
 
 /* Basic Style */
@@ -54,7 +54,7 @@ button{
 .task-list__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .new-task__wrapper   {
@@ -144,7 +144,7 @@ button{
 }
 
 .task-list__input {
-  width: 226px
+  width: 226px;
 }
 
 .task-list__img {
@@ -166,14 +166,14 @@ button{
 
 /* Edit Task */
 .task-list__input {
-  display:none
+  display: none;
 }
 
 .task-list__item--edit-mode .task-list__input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px;
 }
 
 .task-list__item--edit-mode .task-list__label {
-  display:none;
+  display: none;
 }
